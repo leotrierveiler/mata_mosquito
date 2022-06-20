@@ -51,7 +51,6 @@ function posicaoMosquitoAleatoria() {
 
     var posicaoX = Math.floor(Math.random() * largura) - 150;
     var posicaoY = Math.floor(Math.random() * altura) - 150;
-    console.log(posicaoX, posicaoY);
 
     posicaoX = posicaoX < 0 ? 0 : posicaoX;
     posicaoY = posicaoY < 0 ? 0 : posicaoY;
